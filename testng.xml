@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TodoAppTestSuite">
+  <test name="TodoTests">
+    <classes>
+      <class name="tests.AddTaskTest"/>
+      <class name="tests.DeleteTaskTest"/>
+      <class name="tests.MarkCompleteTest"/>
+      <class name="tests.FilterTaskTest"/>
+      <class name="tests.DateHeadingTest"/>
+    </classes>
+  </test>
+</suite>
